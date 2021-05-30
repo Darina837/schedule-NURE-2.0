@@ -1,0 +1,67 @@
+.page-faculties__search {
+  padding: 15px 80px;
+  width: 100%;
+  background-color: #cfc5cb;
+  border: none;
+  border-radius: 40px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 44px;
+  color: #e7dfe8;
+  background-image: url(../../../assets/search.svg);
+  background-position: 20px;
+  background-repeat: no-repeat;
+  background-size: initial;
+}
+
+.page-faculties__search:focus {
+  outline: none;
+}
+
+.page-faculties__content {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  height: calc(100% - 74px - 60px);
+  width: 100%;
+  overflow-y: scroll;
+}
+
+.page-faculties__box {
+  background: #e5dce1;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+  padding: 7px 12px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 29px;
+  color: #d18e7d;
+  text-decoration: none;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  opacity: 1;
+  visibility: visible;
+  transition: all 0.3s ease-in-out;
+  z-index: 1;
+  display: block;
+}
+
+.page-faculties__box.hide {
+display: none;
+}
+
+.page-faculties__search {
+  margin-top: 10px;
+}
+
+.page-faculty-row {
+  height: calc(100% - 224px);
+}
+
+.page-faculties__content {
+  height: 100%;
+}
